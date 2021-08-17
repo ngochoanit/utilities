@@ -15,7 +15,10 @@
     ],
     "parserOptions": {
         "ecmaVersion": 2018,
-        "sourceType": "module"
+        "sourceType": "module",
+        "ecmaFeatures": {
+            " jsx": true
+        }
     },
     "rules": {
         "react-hooks/rules-of-hooks": "error",
@@ -34,8 +37,8 @@
             "always"
         ],
         "indent": [
-            "off",
-            2
+            "warn",
+            4
         ],
         "linebreak-style": 0,
         "semi": [
