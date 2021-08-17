@@ -38,7 +38,11 @@
         ],
         "indent": [
             "warn",
-            4
+            4,
+            {
+                "SwitchCase": 1,
+                "VariableDeclarator": 1
+            }
         ],
         "linebreak-style": 0,
         "semi": [
